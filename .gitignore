@@ -1,0 +1,17 @@
+# Environments
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Mac OS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Note: We normally ignore *.log files, but we are EXPLICITLY leaving 
+# trading_bot.log out of this list because the reviewers asked to see it!

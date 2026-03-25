@@ -1,0 +1,12 @@
+2026-03-25 23:19:01 | INFO | bot.client | Successfully initialized Binance API client.
+2026-03-25 23:19:01 | INFO | bot.client | Successfully connected to Binance Futures Testnet.
+2026-03-25 23:19:01 | INFO | bot.orders | Sending MARKET order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-25 23:19:01 | INFO | bot.orders | Raw API Response: {'orderId': 12992700898, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJa0f055d122959a61697db0', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774460941649}
+2026-03-25 23:19:14 | INFO | bot.client | Successfully initialized Binance API client.
+2026-03-25 23:19:15 | INFO | bot.client | Successfully connected to Binance Futures Testnet.
+2026-03-25 23:19:15 | INFO | bot.orders | Sending LIMIT order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 65000.0, 'timeInForce': 'GTC'}
+2026-03-25 23:19:15 | ERROR | bot.orders | Binance API Error during order placement: APIError(code=-4024): Limit price can't be lower than 67331.06.
+2026-03-25 23:20:01 | INFO | bot.client | Successfully initialized Binance API client.
+2026-03-25 23:20:01 | INFO | bot.client | Successfully connected to Binance Futures Testnet.
+2026-03-25 23:20:01 | INFO | bot.orders | Sending LIMIT order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 75000.0, 'timeInForce': 'GTC'}
+2026-03-25 23:20:01 | INFO | bot.orders | Raw API Response: {'orderId': 12992702063, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ8ef590b038ff34130e91cb', 'price': '75000.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774461001709}
