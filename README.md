@@ -36,29 +36,29 @@ trading_bot/
 ```
 ## ⚙️ Setup & Installation
 
-**1. Clone the repo**
+* 1. Clone the repo
 ```
 git clone (https://github.com/iron-prog/trading_bot.git)
 cd trading_bot
 ```
-**2. Create a virtual environment
+* 2. Create a virtual environment
 ```
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-**3. Install dependencies
+* 3. Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-**4. Configure API Credentials
+* 4. Configure API Credentials
 To maintain security, this bot requires your Binance Futures Testnet credentials to be passed via environment variables.
 ```
 export BINANCE_TESTNET_API_KEY="your_api_key_here"
 export BINANCE_TESTNET_API_SECRET="your_api_secret_here"
 ```
 
-##🚀 Usage Guide
+## 🚀 Usage Guide
 The CLI is built using Typer, providing a clean interface with automatic help generation.
 View all available commands and arguments:
 ```
