@@ -73,4 +73,4 @@ CLI Framework: Typer was utilized instead of argparse. Typer offers superior typ
 Security Posture: Hardcoding API keys is an anti-pattern. The application strictly enforces the use of environment variables to prevent accidental credential leakage in version control.
 
 Logging Strategy: A dual-handler logging approach was implemented. High-level summaries are printed to stdout for immediate user feedback, while granular technical details (including raw API responses) are piped to trading_bot.log for debugging and auditing.
-***
+***webhook test
