@@ -5,7 +5,7 @@
 ![CLI](https://img.shields.io/badge/cli-typer-009688.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-A lightweight, robust, and cleanly structured command-line application designed to place Market and Limit orders on the Binance Futures Testnet (USDT-M). Built with a focus on code readability, strict input validation, and comprehensive error handling.
+A lightweight, robust, and cleanly structured command-line application designed to place Market and Limit orders on the Binance Futures Testnet (USDT-M). Built with a focus on code readability, strict input validation, and comprehensive error handlin.
 
 ## ✨ Core Features
 
