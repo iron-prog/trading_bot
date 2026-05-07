@@ -74,3 +74,4 @@ Security Posture: Hardcoding API keys is an anti-pattern. The application strict
 
 Logging Strategy: A dual-handler logging approach was implemented. High-level summaries are printed to stdout for immediate user feedback, while granular technical details (including raw API responses) are piped to trading_bot.log for debugging and auditing.
 ***webhook test
+webhookTtest
